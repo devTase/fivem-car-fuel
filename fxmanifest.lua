@@ -9,6 +9,7 @@ lua54 'yes'
 
 client_script 'client/client.lua'
 server_scripts {
+    'server/db_setup.lua',
     'server/server.lua',
     '@oxmysql/lib/MySQL.lua'
 }
